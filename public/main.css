@@ -53,8 +53,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
 
-.homepage {
+* {
   font-family: "Roboto", sans-serif;
+  background-color: #f7f6f2;
 }
 
 .translate-x-5 {
@@ -78,9 +79,8 @@
 }
 
 .bg-yellow-300 {
-  background-color: #fcf0c6;
+  background-color: #faf089;
 }
-
 .text-pink-600 {
   color: #ff1b9e;
 }
@@ -92,4 +92,51 @@
 .scroll-menu .active {
   border: 1px solid #ff1b9e;
   padding: 2px;
+}
+.h-40 {
+  height: 40px;
+}
+.outline-none:focus {
+  outline: none;
+}
+.w-50px {
+  width: 50px;
+}
+.overflow-x {
+  overflow-x: auto;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3d0185;
+  color: #fff;
+  border-radius: 50%;
+  border: 0px;
+  margin: auto;
+}
+.w-fix {
+  width: 65px;
+}
+.avatar-font {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 5px;
+}
+.offerborder {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #f6e05e;
+}
+.offertext {
+  font-size: 14px;
+}
+.card-border {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #ffffff;
 }
